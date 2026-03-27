@@ -14,4 +14,4 @@ def get_nth(node, index):
         current = current.next
         current_index += 1
 
-    raise Exception('index out of range')
+    raise ValueError('index out of range')

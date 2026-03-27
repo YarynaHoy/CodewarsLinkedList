@@ -12,7 +12,7 @@ def alternating_split(head):
     # Your code goes here.
     # Remember to return the context.
     if head is None or head.next is None:
-        raise Exception('empty list')
+        raise ValueError('empty list')
 
     first = head
     second = head.next

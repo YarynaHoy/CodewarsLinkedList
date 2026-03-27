@@ -12,7 +12,7 @@ def move_node(source, dest):
     # Your code goes here.
     # Remember to return the context.
     if source is None:
-        raise Exception('empty list')
+        raise ValueError('empty list')
 
     new_node = Node(source.data)
     new_node.next = dest
